@@ -1,6 +1,6 @@
   1. Inicio
 
-  2. funcion princiapl()
+  2. funcion principal()
 
   3.         numeroCuentas, i [0-n]
   4.	     opcionCuenta, i [0-n]
