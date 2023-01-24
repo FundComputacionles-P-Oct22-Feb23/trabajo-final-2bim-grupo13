@@ -93,7 +93,6 @@
 
  68. fin funcion crearFacebook
 
-
  69. funcion crearTwitter()
 
  70.         usuario, x(1000)[{A - Z}, {a - z}, {BS}]
@@ -134,7 +133,6 @@
 
  96. fin funcion crearTwitter
 
-
  97. funcion crearWhatsapp () 
 
  98.         nombre, x(1000)[{A - Z}, {a - z}, {BS}]
@@ -162,7 +160,6 @@
 114.         mensaje = "Nombre de usuario:\t" + nombre + "\nNúmero de teléfono:\t" + numero + "\nEdad:\t" + edad + "\nCiudad:\t" + ciudad + "\nPaís:\t" + pais + "\n"
 
 115. fin funcion crearWhatsapp
-
 
 116. funcion crearTelegram () 
 
@@ -192,7 +189,6 @@
 
 134. fin funcion crearTelegram
 
-
 135. funcion crearSignal () 
 
 136.         nombre, x(1000)[{A - Z}, {a - z}, {BS}]
@@ -221,7 +217,6 @@
 
 153. fin funcion crearSignal
 
-
 154. funcion crearInstagram ()
 
 155.         nombre, x(1000)[{A - Z}, {a - z}, {BS}]
@@ -246,7 +241,6 @@
 
 169. fin funcion crearInstagram
 
-
 170. funcion crearFlickr ()
 
 171.         nombre, x(1000)[{A - Z}, {a - z}, {BS}]
@@ -262,7 +256,6 @@
 178.         mensaje = "Nombre de usuario:\t" + nombre + "\nCorreo electrónico:\t" + correo + "\n"
 
 179. fin funcion crearFlickr
-
 
 180. funcion obtenerMensaje (contador, i) : x
 
