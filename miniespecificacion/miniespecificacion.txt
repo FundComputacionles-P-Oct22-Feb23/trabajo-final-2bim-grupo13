@@ -16,7 +16,8 @@
                          "Ingrese 4 para agregar cuenta de Telegram  \n" + 
                          "Ingrese 5 para agregar cuenta de Signal    \n" + 
                          "Ingrese 6 para agregar cuenta de Instagram \n" + 
-		         "Ingrese 7 para agregar cuenta de Flickr    \n"
+		         "Ingrese 7 para agregar cuenta de Flickr    \n" +
+			 "------------------------------------------"
  11.		      >> opcionCuenta
 
  12.	              Si (opcionCuenta <=7 AND opcionCuenta >=0) entonces
@@ -57,7 +58,6 @@
  44.		      De lo contrario
  45.			 << "Error en opción seleccionada"
  46.		      Fin Si
- 
  47. 	     Fin Mientras
 
  48.	     mensaje ← obtenerMensaje(numeroCuentas)
