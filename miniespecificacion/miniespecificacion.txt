@@ -9,7 +9,7 @@
   7. 	     bandera, l <-- true
   8.	     mensaje, x(1000)[{a-z}, {A-Z}, {BS}])
 
-  9.	     Mientras (bandera) entonces
+  9.	     Mientras (bandera) entonces 
  10.		      << "Ingrese 1 para agregar cuenta de Facebook  \n" + 
 		         "Ingrese 2 para agregar cuenta de Twiteer   \n" + 
                          "Ingrese 3 para agregar cuenta de Whatsapp  \n" + 
