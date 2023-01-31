@@ -89,7 +89,7 @@
  66.         << "Ingrese su correo electrónico:"
  67.         >> correo
 
- 68.         mensaje = "Nombre de usuario:\t" + nombre + "\nEdad:\t" + edad + "\nCiudad:\t" + ciudad + "\nPais:\t" + pais + "\nEmail:\t"  + correo
+ 68.         << "Nombre de usuario:\t" + nombre + "\nEdad:\t" + edad + "\nCiudad:\t" + ciudad + "\nPais:\t" + pais + "\nEmail:\t"  + correo
 
  69. fin funcion crearFacebook
 
@@ -129,7 +129,7 @@
  94.         << "Ingrese su correo electrónico:"
  95.         >> correo
 
- 96.         mensaje =  "Nombre de usuario:\t" + usuario + "\nNombres:\t" + nombres+ "\nApellidos:\t" +  apellidos + "\nEdad:\t" + edad + "\nCiudad:\t" + ciudad + "\nPais:\t" + pais +  "\nIdioma:\t" + idioma + "\nEmail:\t"  + correo
+ 96.         << "Nombre de usuario:\t" + usuario + "\nNombres:\t" + nombres+ "\nApellidos:\t" +  apellidos + "\nEdad:\t" + edad + "\nCiudad:\t" + ciudad + "\nPais:\t" + pais +  "\nIdioma:\t" + idioma + "\nEmail:\t"  + correo
 
  97. fin funcion crearTwitter
 
@@ -157,7 +157,7 @@
 113.         << "Ingrese el país en el que reside:"
 114.         >> pais
 
-115.         mensaje = "Nombre de usuario:\t" + nombre + "\nNúmero de teléfono:\t" + numero + "\nEdad:\t" + edad + "\nCiudad:\t" + ciudad + "\nPaís:\t" + pais + "\n"
+115.         << "Nombre de usuario:\t" + nombre + "\nNúmero de teléfono:\t" + numero + "\nEdad:\t" + edad + "\nCiudad:\t" + ciudad + "\nPaís:\t" + pais + "\n"
 
 116. fin funcion crearWhatsapp
 
@@ -185,7 +185,7 @@
 132.         << "Ingrese su área de interés:"
 133.         >> area
 
-134.         mensaje = "Nombre de usuario:\t" + nombre + "\nNúmero de teléfono:\t" + numero + "\nCiudad:\t" + ciudad + "\nPaís:\t" + pais + "\nÁrea de interés:\t" + area + "\n"
+134.         << "Nombre de usuario:\t" + nombre + "\nNúmero de teléfono:\t" + numero + "\nCiudad:\t" + ciudad + "\nPaís:\t" + pais + "\nÁrea de interés:\t" + area + "\n"
 
 135. fin funcion crearTelegram
 
@@ -213,7 +213,7 @@
 151.         << "Ingrese su hobby principal:"
 152.         >> hobby
 
-153.         mensaje = "Nombre de usuario:\t" + nombre + "\nNúmero de teléfono:\t" + numero + "\nCiudad:\t" + ciudad + "\nPaís:\t" + pais + "\nHobby principal:\t" + hobby + "\n"
+153.         << "Nombre de usuario:\t" + nombre + "\nNúmero de teléfono:\t" + numero + "\nCiudad:\t" + ciudad + "\nPaís:\t" + pais + "\nHobby principal:\t" + hobby + "\n"
 
 154. fin funcion crearSignal
 
@@ -237,7 +237,7 @@
 167.         << "Ingrese su correo electrónico:"
 168.         >> correo
 
-169.         mensaje = "Nombre de usuario:\t" + nombre + "Ciudad:\t" + ciudad + "Edad:\t" + edad + "Correo electrónico:\t" + correo
+169.         << "Nombre de usuario:\t" + nombre + "Ciudad:\t" + ciudad + "Edad:\t" + edad + "Correo electrónico:\t" + correo
 
 170. fin funcion crearInstagram
 
@@ -253,7 +253,7 @@
 177.         << "Ingrese su correo electrónico:"
 178.         >> correo
 
-179.         mensaje = "Nombre de usuario:\t" + nombre + "\nCorreo electrónico:\t" + correo + "\n"
+179.         << "Nombre de usuario:\t" + nombre + "\nCorreo electrónico:\t" + correo + "\n"
 
 180. fin funcion crearFlickr
 
